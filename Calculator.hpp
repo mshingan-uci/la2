@@ -1,5 +1,6 @@
 // Add include guards 
-
+#ifndef CALCULATOR_HPP
+#define CALCULATOR_HPP
 
 class Calculator {
 
@@ -32,3 +33,5 @@ private:
 	double calc(double x, double y, char op);
 
 };
+
+#endif 
